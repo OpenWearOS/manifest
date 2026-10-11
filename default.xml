@@ -1028,8 +1028,10 @@
     <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
 
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
     <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
 
+  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
 </manifest>
